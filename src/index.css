@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -13,9 +14,12 @@ code {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
+}
+.home{
+  /* background-color:#013972; */
 }

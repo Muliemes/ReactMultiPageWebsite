@@ -7,11 +7,9 @@ import {
   Navigation,
   Footer,
   Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
+  Account,
+  Logout,
+
 } from "./components";
 
 ReactDOM.render(
@@ -19,11 +17,8 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+      <Route path="/account" element={<Account />} />
+      <Route path="/logout" element={<Logout />}>
       </Route>
     </Routes>
     <Footer />
